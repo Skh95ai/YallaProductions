@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,12 +18,12 @@
         }
 
         header {
-            background-color: #008080; /* Teal background */
+            background-color: #FFD700; /* Yellow background */
             color: #fff;
             padding: 20px;
             text-align: center;
             width: 100%;
-            height: 15vh; /* Further reduces the vertical height */
+            height: 20vh; /* Adjusted vertical height */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -31,11 +32,11 @@
 
         header h1 {
             margin: 0;
-            font-size: 2em;
+            font-size: 3em;
         }
 
         header p {
-            font-size: 1em;
+            font-size: 1.5em;
             margin-top: 10px;
         }
 
@@ -68,10 +69,10 @@
             margin-bottom: 10px;
         }
 
-        .about-section, .services-section, .contact-section {
+        .about-section, .services-section, .contact-section, .team-section, .work-section {
             text-align: center;
             margin: 40px 0;
-            background: linear-gradient(135deg, #008080 0%, #ff00ff 100%); /* Mix of teal and magenta */
+            background: linear-gradient(135deg, #FFD700 0%, #FF0000 50%, #0000FF 100%); /* Yellow, red, and blue gradient */
             color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -109,7 +110,7 @@
         }
 
         .service {
-            background-color: #ffd700; /* Gold background for services */
+            background-color: #FFD700; /* Yellow background for services */
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -148,7 +149,7 @@
         }
 
         footer {
-            background-color: #008080; /* Teal background */
+            background-color: #0000FF; /* Blue background */
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -292,6 +293,38 @@
                 <div class="work-video">
                     <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 4</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 5</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 6</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 7</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 8</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 9</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 10</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 11</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 12</p>
                 </div>
             </div>
         </section>
