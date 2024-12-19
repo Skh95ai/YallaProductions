@@ -1,47 +1,13 @@
 <html lang="en">
 <head>
-    <!-- Start of headStart -->
-    
-    <!-- End of headStart -->
-    <meta name="viewport" content="width=device-width">
-    <meta name="generator" content="Framer 83b8097">
-    <title>Looma - Free Photography Portfolio</title>
-    <meta name="description" content="Looma is a free photography portfolio Framer website template designed for photographers, videographers, and photography agencies focused on fashion. Its sleek and minimal design makes it perfect for showcasing your creative work beautifully.">
-    <meta name="framer-search-index" content="https://framerusercontent.com/sites/SnXe6T2fLRnSqF611zpzu/searchIndex-lDnqX_HYIyrX.json">
-    <link href="https://framerusercontent.com/sites/icons/default-favicon-light.v1.png" rel="icon" media="(prefers-color-scheme: light)">
-    <link href="https://framerusercontent.com/sites/icons/default-favicon-dark.v1.png" rel="icon" media="(prefers-color-scheme: dark)">
-    <link rel="apple-touch-icon" href="https://framerusercontent.com/sites/icons/default-touch-icon.v3.png">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Looma - Free Photography Portfolio">
-    <meta property="og:description" content="Looma is a free photography portfolio Framer website template designed for photographers, videographers, and photography agencies focused on fashion. Its sleek and minimal design makes it perfect for showcasing your creative work beautifully.">
-    <meta property="og:image" content="https://framerusercontent.com/images/WEOHOO7whbacpAWKPgBFfn2wsw.jpg">
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Looma - Free Photography Portfolio">
-    <meta name="twitter:description" content="Looma is a free photography portfolio Framer website template designed for photographers, videographers, and photography agencies focused on fashion. Its sleek and minimal design makes it perfect for showcasing your creative work beautifully.">
-    <meta name="twitter:image" content="https://framerusercontent.com/images/WEOHOO7whbacpAWKPgBFfn2wsw.jpg">
 
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        header {
-            background-color: #000;
+    header {
+            background-color: #008080; /* Teal background */
             color: #fff;
             padding: 20px;
             text-align: center;
             width: 100%;
-            height: 30vh; /* Further reduces the vertical height */
+            height: 15vh; /* Further reduces the vertical height */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -50,11 +16,11 @@
 
         header h1 {
             margin: 0;
-            font-size: 3em;
+            font-size: 2em;
         }
 
         header p {
-            font-size: 1.5em;
+            font-size: 1em;
             margin-top: 10px;
         }
 
@@ -90,6 +56,11 @@
         .about-section, .services-section, .contact-section {
             text-align: center;
             margin: 40px 0;
+            background: linear-gradient(135deg, #008080 0%, #ff00ff 100%); /* Mix of teal and magenta */
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .team {
@@ -106,6 +77,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
             max-width: 300px;
+            color: #333; /* Ensure text is visible */
         }
 
         .team-member img {
@@ -122,12 +94,13 @@
         }
 
         .service {
-            background-color: #a0e1e0; /* Light cyan background for services */
+            background-color: #ffd700; /* Gold background for services */
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
             max-width: 300px;
+            color: #333; /* Ensure text is visible */
         }
 
         .contact-form {
@@ -160,7 +133,7 @@
         }
 
         footer {
-            background-color: #000;
+            background-color: #008080; /* Teal background */
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -223,15 +196,6 @@
             z-index: -1;
             object-fit: cover;
         }
-
-        .bright-colors {
-            background: linear-gradient(135deg, #a0e1e0 0%, #ffc107 100%); /* Mix of green and orange */
-            color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
@@ -252,12 +216,12 @@
     </header>
 
     <div class="container">
-        <section id="about" class="about-section bright-colors">
+        <section id="about" class="about-section">
             <h2>About Us</h2>
             <p>At Yalla Productions, we bring stories to life with creativity, passion, and professionalism. Whether you're a business or an individual, we focus on your success and craft unforgettable visuals that truly connect. We understand the challenges businesses face in reaching their full potential. We combine our passion for cinematography and filmmaking with creativity, professionalism, and a modern touch, helping your business thrive online to stand out. Our priority is making our clients and partners not just satisfied but truly proud of their growth and achievements. We’re here to help you break barriers, connect with new audiences, and build a legacy of success. Together, let’s transform your vision into reality and create something extraordinary.</p>
         </section>
 
-        <section id="services" class="services-section bright-colors">
+        <section id="services" class="services-section">
             <h2>Our Services</h2>
             <div class="services">
                 <div class="service">
@@ -279,7 +243,7 @@
             </div>
         </section>
 
-        <section id="team" class="team-section bright-colors">
+        <section id="team" class="team-section">
             <h2>Meet the Team</h2>
             <div class="team">
                 <div class="team-member">
@@ -295,7 +259,7 @@
             </div>
         </section>
 
-        <section id="work" class="work-section bright-colors">
+        <section id="work" class="work-section">
             <h2>Our Work</h2>
             <div class="work-videos">
                 <div class="work-video">
@@ -317,7 +281,7 @@
             </div>
         </section>
 
-        <section id="contact" class="contact-section bright-colors">
+        <section id="contact" class="contact-section">
             <h2>Contact Us</h2>
             <form class="contact-form">
                 <input type="text" placeholder="Your Name" required>
