@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,6 +22,11 @@
             padding: 20px;
             text-align: center;
             width: 100%;
+            height: 100vh; /* Makes the header cover the entire viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         nav {
@@ -89,7 +93,7 @@
         }
 
         .service {
-            background-color: #fff;
+            background-color: #e0f7fa; /* Light cyan background for services */
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -152,6 +156,32 @@
         .social-links a:hover {
             color: #ddd;
         }
+
+        .work-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .work-videos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .work-video {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .work-video iframe {
+            width: 100%;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -165,12 +195,14 @@
         <a href="#services">Services</a>
         <a href="#team">Team</a>
         <a href="#contact">Contact</a>
+        <a href="#work">Work</a>
     </nav>
 
     <div class="container">
         <section id="about" class="about-section">
             <h2>About Us</h2>
             <p>At Yalla Productions, we bring stories to life with creativity, passion, and professionalism. Whether you're a business or an individual, we focus on your success and craft unforgettable visuals that truly connect.</p>
+            <p>Here at Yalla Productions, we understand the challenges businesses face in reaching their full potential. We combine our passion for cinematography and filmmaking with creativity, professionalism, and a modern touch, helping your business thrive online to stand out. Our priority is making our clients and partners not just satisfied but truly proud of their growth and achievements. We’re here to help you break barriers, connect with new audiences, and build a legacy of success. Together, let’s transform your vision into reality and create something extraordinary.</p>
         </section>
 
         <section id="services" class="services-section">
@@ -197,12 +229,27 @@
                 <div class="team-member">
                     <img src="https://via.placeholder.com/150" alt="Sanad Khalaileh">
                     <h3>Sanad Khalaileh</h3>
-                    <p>Owner and Shooter</p>
+                    <p>Owner and Director</p>
                 </div>
                 <div class="team-member">
                     <img src="https://via.placeholder.com/150" alt="Justin Vazquez">
                     <h3>Justin Vazquez</h3>
                     <p>Director of Photography</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work-section">
+            <h2>Our Work</h2>
+            <div class="work-videos">
+                <!-- Example of embedded YouTube video -->
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 1</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 2</p>
                 </div>
             </div>
         </section>
