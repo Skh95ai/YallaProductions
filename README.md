@@ -1,10 +1,3 @@
-# YallaProductions" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:Skh95ai/YallaProductions.git
-git push -u origin main
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +22,7 @@ git push -u origin main
             color: #fff;
             padding: 20px;
             text-align: center;
+            width: 100%;
         }
 
         nav {
@@ -141,6 +135,23 @@ git push -u origin main
             bottom: 0;
             width: 100%;
         }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .social-links a:hover {
+            color: #ddd;
+        }
     </style>
 </head>
 <body>
@@ -184,14 +195,14 @@ git push -u origin main
             <h2>Meet the Team</h2>
             <div class="team">
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Team Member">
-                    <h3>John Doe</h3>
-                    <p>Creative Director</p>
+                    <img src="https://via.placeholder.com/150" alt="Sanad Khalaileh">
+                    <h3>Sanad Khalaileh</h3>
+                    <p>Owner and Shooter</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Team Member">
-                    <h3>Jane Smith</h3>
-                    <p>Lead Videographer</p>
+                    <img src="https://via.placeholder.com/150" alt="Justin Vazquez">
+                    <h3>Justin Vazquez</h3>
+                    <p>Director of Photography</p>
                 </div>
             </div>
         </section>
@@ -209,6 +220,11 @@ git push -u origin main
 
     <footer>
         <p>&copy; 2024 Yalla Productions. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
     </footer>
 </body>
 </html>
