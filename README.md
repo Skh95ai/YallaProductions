@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000; /* Black background */
+            background-color: #000; /* mix of blue black and gold */
             color: #fff;
             display: flex;
             flex-direction: column;
