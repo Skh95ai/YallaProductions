@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,15 +10,15 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
+            background-color: #000; /* Black background */
+            color: #fff;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
         }
 
         header {
-            background-color: #008000; /* Green background */
+            background-color: #FFA500; /* Bright orange background */
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -42,12 +43,12 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #FFA500; /* Orange background */
+            background-color: #FFA500; /* Bright orange background */
             padding: 10px;
         }
 
         nav a {
-            color: #fff;
+            color: #000;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
@@ -71,8 +72,8 @@
         .about-section, .services-section, .contact-section, .team-section, .work-section {
             text-align: center;
             margin: 40px 0;
-            background: linear-gradient(135deg, #008000 0%, #FFA500 50%, #800080 100%); /* Green, orange, and purple gradient */
-            color: #fff;
+            background-color: #FFA500; /* Bright orange background */
+            color: #000;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -109,7 +110,7 @@
         }
 
         .service {
-            background-color: #FFA500; /* Orange background for services */
+            background-color: #FFA500; /* Bright orange background for services */
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -148,8 +149,8 @@
         }
 
         footer {
-            background-color: #800080; /* Purple background */
-            color: #fff;
+            background-color: #FFA500; /* Bright orange background */
+            color: #000;
             text-align: center;
             padding: 10px;
             position: relative;
@@ -167,7 +168,7 @@
         }
 
         .social-links a {
-            color: #fff;
+            color: #000;
             text-decoration: none;
             font-size: 24px;
         }
