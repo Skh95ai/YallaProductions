@@ -330,10 +330,10 @@
 
         <section id="contact" class="contact-section">
             <h2>Contact Us</h2>
-            <form class="contact-form" action="mailto:yallaproductionsteam@gmail.com" method="post" enctype="text/plain">
-                <input type="text" placeholder="Your Name" name="name" required>
-                <input type="email" placeholder="Your Email" name="email" required>
-                <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
         </section>
