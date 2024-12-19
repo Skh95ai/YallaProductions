@@ -8,11 +8,11 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #95DBE5FF;
-            color: #078282FF;
+            background-color: #95DBE5; /* Tanager Turquoise */
+            color: #078282; /* Teal Blue */
         }
         header {
-            background-color: #339E66FF;
+            background-color: #339E66; /* Kelly Green */
             color: white;
             padding: 20px;
             text-align: center;
@@ -20,7 +20,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #078282FF;
+            background-color: #078282; /* Teal Blue */
         }
         nav a {
             color: white;
@@ -29,7 +29,7 @@
             display: block;
         }
         nav a:hover {
-            background-color: #339E66FF;
+            background-color: #339E66; /* Kelly Green */
         }
         section {
             padding: 20px;
@@ -41,7 +41,7 @@
         }
         .project-card {
             background-color: white;
-            border: 1px solid #078282FF;
+            border: 1px solid #078282; /* Teal Blue */
             border-radius: 8px;
             padding: 15px;
             text-align: center;
@@ -51,7 +51,7 @@
             border-radius: 8px;
         }
         footer {
-            background-color: #078282FF;
+            background-color: #078282; /* Teal Blue */
             color: white;
             text-align: center;
             padding: 10px;
@@ -111,7 +111,7 @@
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4"></textarea><br><br>
 
-            <button type="submit" style="background-color: #339E66FF; color: white; border: none; padding: 10px 20px; border-radius: 4px;">Submit</button>
+            <button type="submit" style="background-color: #339E66; color: white; border: none; padding: 10px 20px; border-radius: 4px;">Submit</button>
         </form>
     </section>
     
