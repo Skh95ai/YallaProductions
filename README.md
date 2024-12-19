@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -72,8 +71,8 @@
         .about-section, .services-section, .contact-section, .team-section, .work-section {
             text-align: center;
             margin: 40px 0;
-            background-color: #FFA500; /* Bright orange background */
-            color: #000;
+            background: linear-gradient(135deg, #0000FF 0%, #FFA500 50%, #800080 100%); /* Blue, orange, and purple gradient */
+            color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -268,7 +267,7 @@
                     <p>Owner and Director</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://i.imgur.com/qM4kqZl.jpg" alt="Justin Vazquez"> <!-- Anime-style image of a Middle Eastern male -->
+                    <img src="https://i.imgur.com/2yC6mB2.jpg" alt="Justin Vazquez"> <!-- Anime-style image of a Middle Eastern male -->
                     <h3>Justin Vazquez</h3>
                     <p>Director of Photography</p>
                 </div>
