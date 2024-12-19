@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,12 +17,12 @@
         }
 
         header {
-            background-color: #FFD700; /* Yellow background */
+            background-color: #008000; /* Green background */
             color: #fff;
             padding: 20px;
             text-align: center;
             width: 100%;
-            height: 10vh; /* Further reduces the vertical height */
+            height: 20vh; /* Adjusted vertical height */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -43,7 +42,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #FF0000; /* Red background */
+            background-color: #FFA500; /* Orange background */
             padding: 10px;
         }
 
@@ -72,7 +71,7 @@
         .about-section, .services-section, .contact-section, .team-section, .work-section {
             text-align: center;
             margin: 40px 0;
-            background: linear-gradient(135deg, #FFD700 0%, #FF0000 50%, #0000FF 100%); /* Yellow, red, and blue gradient */
+            background: linear-gradient(135deg, #008000 0%, #FFA500 50%, #800080 100%); /* Green, orange, and purple gradient */
             color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -110,7 +109,7 @@
         }
 
         .service {
-            background-color: #FFD700; /* Yellow background for services */
+            background-color: #FFA500; /* Orange background for services */
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -149,7 +148,7 @@
         }
 
         footer {
-            background-color: #0000FF; /* Blue background */
+            background-color: #800080; /* Purple background */
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -263,12 +262,12 @@
             <h2>Meet the Team</h2>
             <div class="team">
                 <div class="team-member">
-                    <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Sanad Khalaileh"> <!-- Anime-style image of a Middle Eastern guy -->
+                    <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Sanad Khalaileh"> <!-- Anime-style image of a Middle Eastern male -->
                     <h3>Sanad Khalaileh</h3>
                     <p>Owner and Director</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://i.imgur.com/a1oGdKH.jpg" alt="Justin Vazquez"> <!-- Anime-style image of a Hispanic guy -->
+                    <img src="https://i.imgur.com/qM4kqZl.jpg" alt="Justin Vazquez"> <!-- Anime-style image of a Middle Eastern male -->
                     <h3>Justin Vazquez</h3>
                     <p>Director of Photography</p>
                 </div>
