@@ -24,8 +24,8 @@
             width: 100%;
             height: 100vh; /* Makes the header cover the entire viewport height */
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            flex-direction: row; /* Change to row to fit the page sideways */
+            justify-content: space-around; /* Space between items */
             align-items: center;
         }
 
@@ -143,7 +143,7 @@
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 10px;
+            gap: 20px; /* Increased gap for better separation */
             margin-top: 20px;
         }
 
@@ -151,6 +151,11 @@
             color: #fff;
             text-decoration: none;
             font-size: 24px;
+        }
+
+        .social-links img {
+            width: 24px;
+            height: 24px;
         }
 
         .social-links a:hover {
@@ -182,12 +187,25 @@
             width: 100%;
             border-radius: 8px;
         }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
+    <video autoplay muted loop class="video-background">
+        <source src="your-video-url.mp4" type="video/mp4">
+    </video>
+
     <header>
         <h1>Yalla Productions</h1>
-        <p>Where Stories Come to Life</p>
     </header>
 
     <nav>
@@ -201,8 +219,7 @@
     <div class="container">
         <section id="about" class="about-section">
             <h2>About Us</h2>
-            <p>At Yalla Productions, we bring stories to life with creativity, passion, and professionalism. Whether you're a business or an individual, we focus on your success and craft unforgettable visuals that truly connect.</p>
-            <p>Here at Yalla Productions, we understand the challenges businesses face in reaching their full potential. We combine our passion for cinematography and filmmaking with creativity, professionalism, and a modern touch, helping your business thrive online to stand out. Our priority is making our clients and partners not just satisfied but truly proud of their growth and achievements. We’re here to help you break barriers, connect with new audiences, and build a legacy of success. Together, let’s transform your vision into reality and create something extraordinary.</p>
+            <p>At Yalla Productions, we bring stories to life with creativity, passion, and professionalism. Whether you're a business or an individual, we focus on your success and craft unforgettable visuals that truly connect. We understand the challenges businesses face in reaching their full potential. We combine our passion for cinematography and filmmaking with creativity, professionalism, and a modern touch, helping your business thrive online to stand out. Our priority is making our clients and partners not just satisfied but truly proud of their growth and achievements. We’re here to help you break barriers, connect with new audiences, and build a legacy of success. Together, let’s transform your vision into reality and create something extraordinary.</p>
         </section>
 
         <section id="services" class="services-section">
@@ -213,12 +230,16 @@
                     <p>Helping businesses tell their stories and grow their brands.</p>
                 </div>
                 <div class="service">
-                    <h3>Event Coverage</h3>
+                    <h3>Live Events</h3>
                     <p>Capturing life's most meaningful moments.</p>
                 </div>
                 <div class="service">
                     <h3>Social Media Content</h3>
                     <p>Creating engaging content that resonates with your audience.</p>
+                </div>
+                <div class="service">
+                    <h3>Documentaries</h3>
+                    <p>Crafting powerful and captivating documentaries.</p>
                 </div>
             </div>
         </section>
@@ -242,13 +263,13 @@
         <section id="work" class="work-section">
             <h2>Our Work</h2>
             <div class="work-videos">
-                <!-- Example of embedded YouTube video -->
+                <!-- Example of embedded Vimeo video -->
                 <div class="work-video">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/your-video-id" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 1</p>
                 </div>
                 <div class="work-video">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/your-video-id" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 2</p>
                 </div>
             </div>
@@ -268,9 +289,9 @@
     <footer>
         <p>&copy; 2024 Yalla Productions. All Rights Reserved.</p>
         <div class="social-links">
-            <a href="https://youtube.com" target="_blank">YouTube</a>
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://youtube.com" target="_blank"><img src="youtube-icon.png" alt="YouTube"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
         </div>
     </footer>
 </body>
