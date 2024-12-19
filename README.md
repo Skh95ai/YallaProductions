@@ -23,7 +23,7 @@
             padding: 20px;
             text-align: center;
             width: 100%;
-            height: 20vh; /* Adjusted vertical height */
+            height: 10vh; /* Further reduces the vertical height */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -32,18 +32,18 @@
 
         header h1 {
             margin: 0;
-            font-size: 3em;
+            font-size: 2.5em; /* Adjust font size */
         }
 
         header p {
-            font-size: 1.5em;
+            font-size: 1.2em;
             margin-top: 10px;
         }
 
         nav {
             display: flex;
             justify-content: center;
-            background-color: #333;
+            background-color: #FF0000; /* Red background */
             padding: 10px;
         }
 
@@ -263,12 +263,12 @@
             <h2>Meet the Team</h2>
             <div class="team">
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Sanad Khalaileh">
+                    <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Sanad Khalaileh"> <!-- Anime-style image of a Middle Eastern guy -->
                     <h3>Sanad Khalaileh</h3>
                     <p>Owner and Director</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Justin Vazquez">
+                    <img src="https://i.imgur.com/a1oGdKH.jpg" alt="Justin Vazquez"> <!-- Anime-style image of a Hispanic guy -->
                     <h3>Justin Vazquez</h3>
                     <p>Director of Photography</p>
                 </div>
