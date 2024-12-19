@@ -22,11 +22,21 @@
             padding: 20px;
             text-align: center;
             width: 100%;
-            height: 100vh; /* Makes the header cover the entire viewport height */
+            height: 50vh; /* Makes the header cover half the viewport height */
             display: flex;
-            flex-direction: row; /* Change to row to fit the page sideways */
-            justify-content: space-around; /* Space between items */
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
         }
 
         nav {
@@ -151,11 +161,14 @@
             color: #fff;
             text-decoration: none;
             font-size: 24px;
+            display: flex;
+            align-items: center;
         }
 
         .social-links img {
             width: 24px;
             height: 24px;
+            margin-right: 8px;
         }
 
         .social-links a:hover {
@@ -197,6 +210,15 @@
             z-index: -1;
             object-fit: cover;
         }
+
+        .bright-colors {
+            background-color: #ff9a9e; /* Bright color background */
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -206,23 +228,23 @@
 
     <header>
         <h1>Yalla Productions</h1>
+        <p>Where Stories Come to Life</p>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+            <a href="#work">Work</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#about">About Us</a>
-        <a href="#services">Services</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
-        <a href="#work">Work</a>
-    </nav>
-
     <div class="container">
-        <section id="about" class="about-section">
+        <section id="about" class="about-section bright-colors">
             <h2>About Us</h2>
             <p>At Yalla Productions, we bring stories to life with creativity, passion, and professionalism. Whether you're a business or an individual, we focus on your success and craft unforgettable visuals that truly connect. We understand the challenges businesses face in reaching their full potential. We combine our passion for cinematography and filmmaking with creativity, professionalism, and a modern touch, helping your business thrive online to stand out. Our priority is making our clients and partners not just satisfied but truly proud of their growth and achievements. We’re here to help you break barriers, connect with new audiences, and build a legacy of success. Together, let’s transform your vision into reality and create something extraordinary.</p>
         </section>
 
-        <section id="services" class="services-section">
+        <section id="services" class="services-section bright-colors">
             <h2>Our Services</h2>
             <div class="services">
                 <div class="service">
@@ -244,7 +266,7 @@
             </div>
         </section>
 
-        <section id="team" class="team-section">
+        <section id="team" class="team-section bright-colors">
             <h2>Meet the Team</h2>
             <div class="team">
                 <div class="team-member">
@@ -260,22 +282,29 @@
             </div>
         </section>
 
-        <section id="work" class="work-section">
+        <section id="work" class="work-section bright-colors">
             <h2>Our Work</h2>
             <div class="work-videos">
-                <!-- Example of embedded Vimeo video -->
                 <div class="work-video">
-                    <iframe src="https://player.vimeo.com/video/your-video-id" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/820676002" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 1</p>
                 </div>
                 <div class="work-video">
-                    <iframe src="https://player.vimeo.com/video/your-video-id" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/820679378" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 2</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://player.vimeo.com/video/834014498" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 3</p>
+                </div>
+                <div class="work-video">
+                    <iframe src="https://player.vimeo.com/video/820676630" frameborder="0" allowfullscreen></iframe>
+                    <p>Example Video 4</p>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact-section">
+        <section id="contact" class="contact-section bright-colors">
             <h2>Contact Us</h2>
             <form class="contact-form">
                 <input type="text" placeholder="Your Name" required>
@@ -289,9 +318,9 @@
     <footer>
         <p>&copy; 2024 Yalla Productions. All Rights Reserved.</p>
         <div class="social-links">
-            <a href="https://youtube.com" target="_blank"><img src="youtube-icon.png" alt="YouTube"></a>
-            <a href="https://linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-            <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="https://youtube.com" target="_blank"><img src="youtube-icon.png" alt="YouTube"> YouTube</a>
+            <a href="https://linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"> LinkedIn</a>
+            <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"> Instagram</a>
         </div>
     </footer>
 </body>
