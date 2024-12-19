@@ -330,7 +330,7 @@
 
         <section id="contact" class="contact-section">
             <h2>Contact Us</h2>
-            <form class="contact-form">
+            <form class="contact-form" action="mailto:yallaproductionsteam@gmail.com" method="post" enctype="text/plain">
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email" required>
                 <textarea placeholder="Your Message" rows="5" required></textarea>
