@@ -1,7 +1,41 @@
 <html lang="en">
 <head>
+    <!-- Start of headStart -->
+    
+    <!-- End of headStart -->
+    <meta name="viewport" content="width=device-width">
+    <meta name="generator" content="Framer 83b8097">
+    <title>Looma - Free Photography Portfolio</title>
+    <meta name="description" content="Looma is a free photography portfolio Framer website template designed for photographers, videographers, and photography agencies focused on fashion. Its sleek and minimal design makes it perfect for showcasing your creative work beautifully.">
+    <meta name="framer-search-index" content="https://framerusercontent.com/sites/SnXe6T2fLRnSqF611zpzu/searchIndex-lDnqX_HYIyrX.json">
+    <link href="https://framerusercontent.com/sites/icons/default-favicon-light.v1.png" rel="icon" media="(prefers-color-scheme: light)">
+    <link href="https://framerusercontent.com/sites/icons/default-favicon-dark.v1.png" rel="icon" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="https://framerusercontent.com/sites/icons/default-touch-icon.v3.png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Looma - Free Photography Portfolio">
+    <meta property="og:description" content="Looma is a free photography portfolio Framer website template designed for photographers, videographers, and photography agencies focused on fashion. Its sleek and minimal design makes it perfect for showcasing your creative work beautifully.">
+    <meta property="og:image" content="https://framerusercontent.com/images/WEOHOO7whbacpAWKPgBFfn2wsw.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Looma - Free Photography Portfolio">
+    <meta name="twitter:description" content="Looma is a free photography portfolio Framer website template designed for photographers, videographers, and photography agencies focused on fashion. Its sleek and minimal design makes it perfect for showcasing your creative work beautifully.">
+    <meta name="twitter:image" content="https://framerusercontent.com/images/WEOHOO7whbacpAWKPgBFfn2wsw.jpg">
 
-    header {
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
             background-color: #008080; /* Teal background */
             color: #fff;
             padding: 20px;
