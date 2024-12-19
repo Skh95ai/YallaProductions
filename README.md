@@ -22,7 +22,7 @@
             padding: 20px;
             text-align: center;
             width: 100%;
-            height: 50vh; /* Makes the header cover half the viewport height */
+            height: 30vh; /* Further reduces the vertical height */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -103,7 +103,7 @@
         }
 
         .service {
-            background-color: #e0f7fa; /* Light cyan background for services */
+            background-color: #a0e1e0; /* Light cyan background for services */
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -153,22 +153,16 @@
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 20px; /* Increased gap for better separation */
+            gap: 40px; /* Increased gap for better separation */
             margin-top: 20px;
+            border-top: 1px solid #555; /* Add a line to separate links */
+            padding-top: 10px;
         }
 
         .social-links a {
             color: #fff;
             text-decoration: none;
             font-size: 24px;
-            display: flex;
-            align-items: center;
-        }
-
-        .social-links img {
-            width: 24px;
-            height: 24px;
-            margin-right: 8px;
         }
 
         .social-links a:hover {
@@ -212,7 +206,7 @@
         }
 
         .bright-colors {
-            background-color: #ff9a9e; /* Bright color background */
+            background: linear-gradient(135deg, #a0e1e0 0%, #ffc107 100%); /* Mix of green and orange */
             color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -286,19 +280,19 @@
             <h2>Our Work</h2>
             <div class="work-videos">
                 <div class="work-video">
-                    <iframe src="https://player.vimeo.com/video/820676002" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 1</p>
                 </div>
                 <div class="work-video">
-                    <iframe src="https://player.vimeo.com/video/820679378" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 2</p>
                 </div>
                 <div class="work-video">
-                    <iframe src="https://player.vimeo.com/video/834014498" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 3</p>
                 </div>
                 <div class="work-video">
-                    <iframe src="https://player.vimeo.com/video/820676630" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allowfullscreen></iframe>
                     <p>Example Video 4</p>
                 </div>
             </div>
@@ -318,9 +312,9 @@
     <footer>
         <p>&copy; 2024 Yalla Productions. All Rights Reserved.</p>
         <div class="social-links">
-            <a href="https://youtube.com" target="_blank"><img src="youtube-icon.png" alt="YouTube"> YouTube</a>
-            <a href="https://linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"> LinkedIn</a>
-            <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"> Instagram</a>
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
         </div>
     </footer>
 </body>
