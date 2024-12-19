@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #B0B8B4; /* Storm Gray background */
+            background-color: #95DBE5; /* Tanager Turquoise background */
             color: #333; /* Dark text color */
             display: flex;
             flex-direction: column;
@@ -17,7 +17,7 @@
         }
 
         header {
-            background-color: #FC766A; /* Living Coral background */
+            background-color: #078282; /* Teal Blue background */
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -42,12 +42,12 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #FC766A; /* Living Coral background */
+            background-color: #078282; /* Teal Blue background */
             padding: 10px;
         }
 
         nav a {
-            color: #184A45; /* Forest Biome text color */
+            color: #339E66; /* Kelly Green text color */
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
@@ -71,7 +71,7 @@
         .about-section, .services-section, .contact-section, .team-section, .work-section {
             text-align: center;
             margin: 40px 0;
-            background: linear-gradient(135deg, #184A45 0%, #FC766A 50%, #B0B8B4 100%); /* Forest Biome, Living Coral, and Storm Gray gradient */
+            background: linear-gradient(135deg, #339E66 0%, #078282 50%, #95DBE5 100%); /* Kelly Green, Teal Blue, and Tanager Turquoise gradient */
             color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -109,7 +109,7 @@
         }
 
         .service {
-            background-color: #FC766A; /* Living Coral background for services */
+            background-color: #078282; /* Teal Blue background for services */
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -137,7 +137,7 @@
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
-            background-color: #333;
+            background-color: #339E66;
             color: #fff;
             cursor: pointer;
             font-size: 16px;
@@ -148,8 +148,8 @@
         }
 
         footer {
-            background-color: #FC766A; /* Living Coral background */
-            color: #184A45; /* Forest Biome text color */
+            background-color: #078282; /* Teal Blue background */
+            color: #339E66; /* Kelly Green text color */
             text-align: center;
             padding: 10px;
             position: relative;
@@ -167,7 +167,7 @@
         }
 
         .social-links a {
-            color: #184A45; /* Forest Biome text color */
+            color: #339E66; /* Kelly Green text color */
             text-decoration: none;
             font-size: 24px;
         }
@@ -262,12 +262,12 @@
             <h2>Meet the Team</h2>
             <div class="team">
                 <div class="team-member">
-                    <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Sanad Khalaileh"> <!-- Anime-style image of a Middle Eastern male -->
+                    <img src="https://via.placeholder.com/150" alt="Sanad Khalaileh"> <!-- Placeholder image of a male -->
                     <h3>Sanad Khalaileh</h3>
                     <p>Owner and Director</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://i.imgur.com/qM4kqZl.jpg" alt="Justin Vazquez"> <!-- Anime-style image of a Middle Eastern male -->
+                    <img src="https://via.placeholder.com/150" alt="Justin Vazquez"> <!-- Placeholder image of a male -->
                     <h3>Justin Vazquez</h3>
                     <p>Director of Photography</p>
                 </div>
