@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -264,12 +265,17 @@
                 <div class="team-member">
                     <img src="https://via.placeholder.com/150" alt="Sanad Khalaileh"> <!-- Placeholder image of a male -->
                     <h3>Sanad Khalaileh</h3>
-                    <p>Owner and Director</p>
+                    <p>Founder</p>
                 </div>
                 <div class="team-member">
                     <img src="https://via.placeholder.com/150" alt="Justin Vazquez"> <!-- Placeholder image of a male -->
                     <h3>Justin Vazquez</h3>
-                    <p>Director of Photography</p>
+                    <p>Partner</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Ray"> <!-- Placeholder image of a male -->
+                    <h3>Ray</h3>
+                    <p>Partner</p>
                 </div>
             </div>
         </section>
